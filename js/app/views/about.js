@@ -5,9 +5,10 @@ define([
 ], function ($, _, Backbone) {
     'use strict';
     var AboutView = Backbone.View.extend({
-        count: 0,
         
-        initialize: function () {},
+        initialize: function () {
+        
+        },
         
         render: function () {
             var html = '<h3>This About view</h3>';
