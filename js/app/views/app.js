@@ -39,13 +39,13 @@ define([
             this.$el.append(this.html);
             this.$('#content').append(this.views['dash'].render().el);
             this.$('#content').append(this.views['about'].render().el);
-
-            this.$('.page-view').hide();
         },
 
         setPage: function (page) {
+            this.$('.nav li').removeClass('active');
             this.$('.page-view').hide();
             this.$('#page-' + page).show();
+            this.$('#nav-'+page).addClass('active');
         }
     });
 
