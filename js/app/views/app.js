@@ -46,29 +46,17 @@ define([
         },
 
         render: function() {
-<<<<<<< HEAD
-            this.$el.css("background-color", this.model.get('backgroundColor'));
-            this.$(".navbar-text").html(this.model.get('welcomeMessage'));
-            return this;
-        },
-
-=======
             this.$el.css('backgound-color', this.model.get('backgroundColor'));
             this.$('.navbar-text').html(this.model.get('welcomeMessage'));
             return this;
         },
         
->>>>>>> lesson8
         setPage: function (page) {
             this.$('.nav li').removeClass('active');
             this.$('.page-view').hide();
             this.$('#page-' + page).show();
             this.$('#nav-'+page).addClass('active');
-<<<<<<< HEAD
-=======
-
             this.model.set('welcomeMessage', 'Welcome to the ' + page + ' page');
->>>>>>> lesson8
         }
     });
 

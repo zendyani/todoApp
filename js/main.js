@@ -29,11 +29,7 @@ require([
     'backbone',
     'app/app',
     'bootstrap'
-<<<<<<< HEAD
-], function(Backbone, App, bootstrap){
-=======
 ], function(Backbone, App){
->>>>>>> lesson8
     'use strict';
     
     App.initialize();

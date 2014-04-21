@@ -1,25 +1,15 @@
 define([
     'app/views/app',
     'app/routers/router',
-<<<<<<< HEAD
-    'app/models/app'
-], function (AppView, Router, AppModel){
-=======
     'app/models/app',
     'app/collections/days'
 ], function (AppView, Router, AppModel, DaysCollection) {
->>>>>>> lesson8
     'use strict';
 
     var initialize = function () {
         var appModel = new AppModel();
-<<<<<<< HEAD
         var appView = new AppView({model: appModel});
 
-=======
-
-        var appView = new AppView({model: appModel});
->>>>>>> lesson8
         $('body').append(appView.render().el);
 
         var router = new Router(appView);
