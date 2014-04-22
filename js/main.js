@@ -4,6 +4,7 @@ require.config({
         'underscore': 'libs/underscore',
         'backbone': 'libs/backbone',
         'bootstrap': 'libs/bootstrap',
+        'backbone.localStorage': 'libs/backbone.localStorage'
     },
     
     shim: { 
