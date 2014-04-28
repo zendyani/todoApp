@@ -7,5 +7,4 @@ Backbone learning app
 [x] Requirejs
 [x] model
 [x] view
-[] make a global plan
 [] collection
